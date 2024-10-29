@@ -1,0 +1,73 @@
+h1 {
+    text-align: center;
+    color: rgb(251, 251, 255);
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+form {
+    border: 2px solid rgb(197, 190, 190);
+    background-color: #daccd4ba;
+    padding: 20px;
+
+    width: 1000px;
+    margin: 0 auto;
+}
+
+span {
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    margin-bottom: 10px;
+}
+span li {
+    display: inline;
+    text-decoration: none;
+}
+#btn {
+    text-decoration: none;
+}
+
+#hobby,
+#courses {
+    width: auto;
+    margin-right: -200px;
+}
+html {
+    background-image: linear-gradient(
+        90deg,
+        #312e63 0%,
+        #090979 35%,
+        #00d4ff 100%
+    );
+}
+#btn {
+    padding: 15px 30px;
+    width: 20%;
+    cursor: pointer;
+    margin: 15px auto;
+    margin-left: 220px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+#btn:hover {
+    transition: background-color 0.4s;
+    background-color: rgb(132, 220, 123);
+}
+
+table {
+    display: inline-block;
+}
+.quali {
+    display: inline-block;
+    padding: auto;
+}
