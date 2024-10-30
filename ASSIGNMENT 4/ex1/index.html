@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Process Data with Callback</title>
+    </head>
+    <body>
+        <script>
+            function toUpperCase(str) {
+                return str.toUpperCase();
+            }
+
+            function processData(input, callback) {
+                const result = callback(input);
+                console.log(result);
+            }
+
+            const inputText = "hello world";
+            processData(inputText, toUpperCase);
+        </script>
+    </body>
+</html>

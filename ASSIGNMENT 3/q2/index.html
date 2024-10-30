@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form with Right-Side Outputs</title>
+        <link type="text/css" rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="form-wrapper">
+            <div class="form-container">
+                <form id="userForm">
+                    <div>
+                        <label for="firstName">First Name:</label>
+                        <input
+                            type="text"
+                            id="firstName"
+                            name="firstName"
+                            required
+                        />
+                    </div>
+
+                    <div>
+                        <label for="lastName">Last Name:</label>
+                        <input
+                            type="text"
+                            id="lastName"
+                            name="lastName"
+                            required
+                        />
+                    </div>
+
+                    <div>
+                        <label for="contactNo">Contact No:</label>
+                        <input
+                            type="tel"
+                            id="contactNo"
+                            name="contactNo"
+                            required
+                        />
+                    </div>
+
+                    <div>
+                        <label for="email">Email ID:</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+
+                    <button type="button" onclick="submitForm()">Submit</button>
+                </form>
+            </div>
+
+            <div class="output-container">
+                <span id="outputFirstName"></span>
+                <span id="outputLastName"></span>
+                <span id="outputContactNo"></span>
+                <span id="outputEmail"></span>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

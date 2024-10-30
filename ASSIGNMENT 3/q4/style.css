@@ -1,0 +1,33 @@
+html {
+    background-color: #818181;
+}
+.hover-link {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.paragraph {
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    text-align: justify;
+    margin-right: 20rem;
+    margin-left: 20rem;
+}
+
+.bold-word {
+    font-weight: bold;
+    color: transparent;
+    transition: color 0.3s ease;
+}
+
+.bold-word.highlighted {
+    color: limegreen;
+}
