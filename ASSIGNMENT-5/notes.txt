@@ -1,0 +1,17 @@
+Highly Recommended
+----------------------------
+
+Execution Context Visualized
+https://www.youtube.com/watch?v=zdGfo6I1yrA&t=99s&ab_channel=LydiaHallie
+
+Promise Visualized
+https://www.youtube.com/watch?v=Xs1EMmBLpn4&ab_channel=LydiaHallie
+-------------------
+Assignment: 5
+Deadline: EOD
+------------------
+Promise exercise (then-catch):
+https://www.youtube.com/watch?v=ZJ3MdnzXCG4&ab_channel=TechwithNader
+
+Promise exercise (async-await):
+https://www.youtube.com/watch?v=dIOhHgreIbE&t=632s&ab_channel=TechwithNader

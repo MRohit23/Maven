@@ -1,0 +1,113 @@
+
+1
+CDAC Mumbai
+Web Programming Technologies
+Total: 15 Marks
+
+Website Design: Flight Booking and Itinerary Management System
+
+Description:
+
+Develop a flight booking platform with multi-city and round-trip options, itinerary management,
+and real-time seat selection. Users should be able to book flights, view trip itineraries, and
+manage bookings.
+
+Requirements
+
+1. Technologies: HTML, CSS, Bootstrap, JavaScript
+
+2. Pages and Layout
+○ Home: Introduction to the platform with flight search options.
+○ Flight Search: Form for one-way, round-trip, and multi-city options.
+○ Flight Details: Display available flights, seat selection, and pricing.
+○ Booking Confirmation: Review and confirm booking details.
+○ Itinerary: View upcoming trips with flight and booking information.
+○ Contact Us: For inquiries and customer support.
+○ Sign Up/Sign In: User registration and login functionality.
+○ Responsive Design: Ensure responsiveness across devices using
+CSS/Bootstrap.
+
+3. CRUD Operations
+○ Create: Allow users to book flights and save itineraries.
+○ Read: Display available flights, itinerary, and booking details.
+○ Update: Enable users to modify flight bookings prior to departure.
+○ Delete: Allow users to cancel bookings as necessary.
+
+Note: The listed requirements are mandatory, including real-time seat selection and validations
+where needed. Extra marks for any unique functionality. Full creative freedom on design and
+features.
+
+
+
+
+
+### 1. **Home Page**
+   - **Purpose**: Introduce the platform and provide an immediate flight search option.
+   - **Main Section Content**:
+     - **Welcome Banner**: A welcoming image or short message introducing the platform.
+     - **Search Form**: A quick search form with input fields for:
+       - **From** and **To** locations (dropdown or autocomplete text fields)
+       - **Departure Date** and optional **Return Date**
+       - **Passenger Count** and **Class Selection** (Economy, Business, etc.)
+     - **Call to Action**: A “Search Flights” button that redirects to the Flight Search page for detailed options.
+
+---
+
+### 2. **Flight Search Page**
+   - **Purpose**: Offer flexible search options (one-way, round-trip, multi-city).
+   - **Main Section Content**:
+     - **Search Options Tabs**: Three tabs or sections for:
+       - **One-Way**
+       - **Round-Trip**
+       - **Multi-City** (this tab has multiple rows for selecting different segments)
+     - **Flight Filters**: After searching, users should see filters for refining results, like:
+       - **Airline**, **Price Range**, **Departure/Arrival Times**, **Nonstop**
+     - **Flight Results**: A dynamically populated list of available flights.
+
+---
+
+### 3. **Flight Details Page**
+   - **Purpose**: Show selected flight details, seat options, and pricing.
+   - **Main Section Content**:
+     - **Flight Summary**: Display selected flight details (airline, timing, duration, layovers).
+     - **Seat Selection**: Visual seat map with clickable seat options (marked as available, booked, premium).
+     - **Pricing Details**: Summary of fare, taxes, and total cost.
+     - **Proceed Button**: “Proceed to Booking” button that directs to the Booking Confirmation page.
+
+---
+
+### 4. **Booking Confirmation Page**
+   - **Purpose**: Let users review and confirm booking.
+   - **Main Section Content**:
+     - **Booking Summary**: Summarize flight details, selected seats, and pricing.
+     - **Passenger Information Form**: Input fields for passenger names, contact details, and special requests.
+     - **Payment Option**: Brief options or buttons for payment methods (credit card, debit card, etc.).
+     - **Confirm Booking Button**: Button to complete the booking, which then shows confirmation.
+
+---
+
+### 5. **Itinerary Page**
+   - **Purpose**: Allow users to view and manage their booked trips.
+   - **Main Section Content**:
+     - **Upcoming Trips**: List of upcoming trips with key details (flight, date, departure time).
+     - **Past Trips**: Optional section to display completed trips.
+     - **Manage Booking**: Options next to each trip for **viewing details**, **updating**, or **canceling**.
+
+---
+
+### 6. **Contact Us Page**
+   - **Purpose**: Provide users with a way to reach customer support.
+   - **Main Section Content**:
+     - **Contact Form**: Fields for **Name**, **Email**, **Subject**, and **Message**.
+     - **Support Info**: Display customer support contact details, such as a **phone number** and **email**.
+     - **FAQs** (Optional): Common questions with quick answers.
+
+---
+
+### 7. **Sign Up / Sign In Page**
+   - **Purpose**: Enable user registration and login.
+   - **Main Section Content**:
+     - **Sign-In Form**: Simple form with fields for **Username** and **Password**.
+     - **Sign-Up Form**: A separate form with fields for **Username**, **Email**, **Password**, and **Confirm Password**.
+     - **Toggle Option**: Option to switch between “Already have an account? Sign In” and “New user? Sign Up.”
+

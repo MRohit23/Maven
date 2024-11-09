@@ -1,0 +1,205 @@
+[
+    {
+        "flightNumber": "AI101",
+        "from": "Mumbai",
+        "to": "Delhi",
+        "departureDate": "2024-11-10",
+        "departureTime": "08:00",
+        "arrivalTime": "10:00",
+        "price": {
+            "Economy": 4500,
+            "Business": 8500
+        }
+    },
+    {
+        "flightNumber": "AI102",
+        "from": "Mumbai",
+        "to": "Delhi",
+        "departureDate": "2024-11-10",
+        "departureTime": "15:00",
+        "arrivalTime": "17:00",
+        "price": {
+            "Economy": 4700,
+            "Business": 9000,
+            "First Class": 14000
+        }
+    },
+    {
+        "flightNumber": "AI103",
+        "from": "Mumbai",
+        "to": "Delhi",
+        "departureDate": "2024-11-10",
+        "departureTime": "21:00",
+        "arrivalTime": "23:00",
+        "price": {
+            "Economy": 5300,
+            "Business": 11000,
+            "First Class": 19000
+        }
+    },
+    {
+        "flightNumber": "BA202",
+        "from": "Pune",
+        "to": "Bangalore",
+        "departureDate": "2024-11-10",
+        "departureTime": "12:00",
+        "arrivalTime": "14:00",
+        "price": {
+            "Economy": 5200,
+            "First Class": 12000
+        }
+    },
+    {
+        "flightNumber": "IN303",
+        "from": "Delhi",
+        "to": "Mumbai",
+        "departureDate": "2024-11-11",
+        "departureTime": "09:00",
+        "arrivalTime": "11:00",
+        "price": {
+            "Economy": 4300,
+            "Business": 7800
+        }
+    },
+    {
+        "flightNumber": "QA404",
+        "from": "Bangalore",
+        "to": "Kolkata",
+        "departureDate": "2024-11-12",
+        "departureTime": "16:00",
+        "arrivalTime": "19:00",
+        "price": {
+            "Economy": 5400,
+            "Business": 10000
+        }
+    },
+    {
+        "flightNumber": "EM505",
+        "from": "Mumbai",
+        "to": "Dubai",
+        "departureDate": "2024-11-15",
+        "departureTime": "23:00",
+        "arrivalTime": "02:00",
+        "price": {
+            "Economy": 8900,
+            "Business": 16000,
+            "First Class": 25000
+        }
+    },
+    {
+        "flightNumber": "TK606",
+        "from": "Delhi",
+        "to": "Istanbul",
+        "departureDate": "2024-11-20",
+        "departureTime": "04:30",
+        "arrivalTime": "09:00",
+        "price": {
+            "Economy": 15000,
+            "Business": 28000,
+            "First Class": 42000
+        }
+    },
+    {
+        "flightNumber": "LH707",
+        "from": "Bangalore",
+        "to": "Frankfurt",
+        "departureDate": "2024-11-25",
+        "departureTime": "22:30",
+        "arrivalTime": "05:00",
+        "price": {
+            "Economy": 24000,
+            "Premium Economy": 35000,
+            "Business": 48000,
+            "First Class": 70000
+        }
+    },
+    {
+        "flightNumber": "AI808",
+        "from": "Chennai",
+        "to": "Delhi",
+        "departureDate": "2024-11-26",
+        "departureTime": "05:00",
+        "arrivalTime": "07:30",
+        "price": {
+            "Economy": 4600,
+            "Business": 8300
+        }
+    },
+    {
+        "flightNumber": "UA909",
+        "from": "Delhi",
+        "to": "New York",
+        "departureDate": "2024-12-01",
+        "departureTime": "00:05",
+        "arrivalTime": "06:00",
+        "price": {
+            "Economy": 67000,
+            "Business": 135000,
+            "First Class": 210000
+        }
+    },
+    {
+        "flightNumber": "AI1010",
+        "from": "Mumbai",
+        "to": "Singapore",
+        "departureDate": "2024-12-05",
+        "departureTime": "14:00",
+        "arrivalTime": "20:00",
+        "price": {
+            "Economy": 13500,
+            "Business": 25000
+        }
+    },
+    {
+        "flightNumber": "BA1101",
+        "from": "Mumbai",
+        "to": "London",
+        "departureDate": "2024-12-10",
+        "departureTime": "12:30",
+        "arrivalTime": "18:30",
+        "price": {
+            "Economy": 54000,
+            "Premium Economy": 75000,
+            "Business": 100000,
+            "First Class": 150000
+        }
+    },
+    {
+        "flightNumber": "AF1202",
+        "from": "Delhi",
+        "to": "Paris",
+        "departureDate": "2024-12-12",
+        "departureTime": "10:00",
+        "arrivalTime": "16:00",
+        "price": {
+            "Economy": 49000,
+            "Business": 89000,
+            "First Class": 130000
+        }
+    },
+    {
+        "flightNumber": "SQ1303",
+        "from": "Singapore",
+        "to": "Mumbai",
+        "departureDate": "2024-12-15",
+        "departureTime": "20:00",
+        "arrivalTime": "23:30",
+        "price": {
+            "Economy": 14000,
+            "Business": 28000
+        }
+    },
+    {
+        "flightNumber": "CX1404",
+        "from": "Mumbai",
+        "to": "Hong Kong",
+        "departureDate": "2024-12-20",
+        "departureTime": "13:00",
+        "arrivalTime": "18:00",
+        "price": {
+            "Economy": 26000,
+            "Business": 49000,
+            "First Class": 80000
+        }
+    }
+]

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Remove Items from Dropdown</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div class="dropdown-container">
+            <h2>Select and Remove Item</h2>
+
+            <select id="itemDropdown">
+                <option value="Item 1">Item 1</option>
+                <option value="Item 2">Item 2</option>
+                <option value="Item 3">Item 3</option>
+                <option value="Item 4">Item 4</option>
+                <option value="Item 5">Item 5</option>
+            </select>
+
+            <button onclick="removeSelectedItem()">Remove Selected Item</button>
+
+            <div id="message" class="message"></div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

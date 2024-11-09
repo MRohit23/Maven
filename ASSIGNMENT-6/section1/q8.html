@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            const shoppingCart = [
+                { name: "Apple", price: 120 },
+                { name: "Banana", price: 60 },
+                { name: "Orange", price: 100 },
+                { name: "Mango", price: 200 },
+            ];
+
+            const totalPrice = shoppingCart.reduce(
+                (total, item) => total + item.price,
+                0
+            );
+
+            console.log(`Total Price: ₹${totalPrice.toFixed(2)}`);
+        </script>
+    </body>
+</html>

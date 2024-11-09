@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <h1>STUDENT REGISTRATION FORM</h1>
+        <form action="POST">
+            <span for="fname">First Name</span>
+            <input
+                type="text"
+                id="fname"
+                name="fname"
+                maxlength="30"
+                required
+            />
+            <br />
+            <span for="lname">Last Name</span>
+            <input
+                type="text"
+                name="lname"
+                id="lname"
+                maxlength="30"
+                required
+            />
+            <br />
+            <span for="dob">DATE OF BIRTH</span>
+            <input type="date" name="date" id="date" required />
+            <br />
+            <span for="email">EMAIL ID</span>
+            <input type="email" name="email" id="email" required />
+            <br />
+            <span for="number">MOBILE NUMBER</span>
+            <input
+                type="number"
+                name="number"
+                id="number"
+                maxlength="10"
+                minlength="10"
+                required
+            />
+            <br />
+            <span for="gender">GENDER</span>
+            <input type="radio" name="gender" id="male" />
+            <span for="male">Male</span>
+            <input type="radio" name="gender" id="female" />
+            <span for="female">Female</span>
+            <br />
+            <span for="address">ADDRESS</span>
+            <textarea name="address" id="address"></textarea>
+            <br />
+            <span for="city">CITY</span>
+            <input type="text" name="city" id="city" maxlength="30" required />
+
+            <br />
+            <span for="pincode">PINCODE</span>
+            <input
+                type="number"
+                name="pincode"
+                id="pincode"
+                maxlength="6"
+                minlength="6"
+                required
+            />
+
+            <br />
+            <span for="country">COUNTRY</span>
+            <input type="text" name="country" id="country" />
+            <br />
+            <div>
+                <span for="hobby">HOBBIES</span>
+                <span id="hobby"
+                    ><ul>
+                        <li>
+                            Drawing
+                            <input
+                                type="checkbox"
+                                name="drawing"
+                                id="drawing"
+                            />
+                        </li>
+                        <li>
+                            Singing
+                            <input
+                                type="checkbox"
+                                name="checkbox"
+                                id="singing"
+                            />
+                        </li>
+                        <li>
+                            Dancing
+                            <input
+                                type="checkbox"
+                                name="dancing"
+                                id="dancing"
+                            />
+                        </li>
+                        <li>
+                            Sketching
+                            <input
+                                type="checkbox"
+                                name="sketching"
+                                id="sketching"
+                            />
+                        </li>
+                        <li>
+                            Others
+                            <input type="checkbox" name="Others" id="others" />
+                            <input type="text" name="others" id="others" />
+                        </li></ul
+                ></span>
+            </div>
+            <br />
+            <div class="quali">
+                <span for="qualification" id="qualification"
+                    >QUALIFICATION</span
+                >
+            </div>
+            <table>
+                <tr>
+                    <th>Sl.No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" required /></td>
+                    <td><input type="number" required /></td>
+                    <td><input type="number" required /></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text" required /></td>
+                    <td><input type="number" required /></td>
+                    <td><input type="number" required /></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text" required /></td>
+                    <td><input type="number" required /></td>
+                    <td><input type="number" required /></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text" required /></td>
+                    <td><input type="number" required /></td>
+                    <td><input type="number" required /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>(10 char max)</td>
+                    <td>(upto 2 decimal)</td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <br />
+            <span for="courses">COURSES APPLIED FOR</span>
+            <span id="courses">
+                <ul id="courses">
+                    <li>
+                        <label for="bca">BCA</label>
+                        <input type="radio" name="courses" id="bca" />
+                    </li>
+                    <li>
+                        <label for="bcom">B.Com</label>
+                        <input type="radio" name="courses" id="bcom" />
+                    </li>
+                    <li>
+                        <label for="bsc">B.Sc</label>
+                        <input type="radio" name="courses" id="bsc" />
+                    </li>
+                    <li>
+                        <label for="ba">B.A.</label>
+                        <input type="radio" name="courses" id="ba" />
+                    </li></ul
+            ></span>
+            <br />
+            <div id="bt">
+                <input type="submit" value="Submit" id="btn" />
+                <input type="reset" value="Reset" id="btn" />
+            </div>
+        </form>
+    </body>
+</html>

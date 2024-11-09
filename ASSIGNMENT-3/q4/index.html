@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Highlight Bold Words on Hover</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div
+            class="hover-link"
+            onmouseover="highlightBoldWords()"
+            onmouseout="removeHighlight()"
+        >
+            [On mouse over here bold words of the following paragraph will be
+            highlighted]
+        </div>
+
+        <p class="paragraph">
+            We have just started <span class="bold-word">this</span> section for
+            the users ( <span class="bold-word">beginner</span> to intermediate
+            ) who <span class="bold-word">want</span> to work with
+            <span class="bold-word">various</span> JavaScript
+            <span class="bold-word">problems</span> and write scripts online to
+            <span class="bold-word">test</span> their JavaScript
+            <span class="bold-word">skill</span>.
+        </p>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

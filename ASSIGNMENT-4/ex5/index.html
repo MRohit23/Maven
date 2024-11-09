@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            function fetchData(url, callback) {
+                console.log(`Fetching data from ${url}...`);
+
+                setTimeout(() => {
+                    const isError = Math.random() > 0.5;
+
+                    if (isError) {
+                        callback(`Error fetching data from ${url}`, null);
+                    } else {
+                        const response = `Response from ${url}`;
+                        callback(null, response);
+                    }
+                }, 2000);
+            }
+
+            function processData(data, callback) {
+                console.log("Processing data...");
+
+                setTimeout(() => {
+                    const processedData = `${data} - Processed`;
+                    callback(processedData);
+                }, 1000);
+            }
+
+            fetchData("https://example.com/api/data", (error, response) => {
+                if (error) {
+                    console.error(error);
+                } else {
+                    processData(response, (processedData) => {
+                        console.log(processedData);
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>
