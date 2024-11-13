@@ -53,6 +53,22 @@ html {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.confirmTicket {
+    width: fit-content;
+    line-height: 2rem;
+    padding: 1rem;
+
+    border: 2px solid #ccc !important;
+
+    border-radius: 1rem;
+
+    box-shadow: 1px 2px 5px rgb(0, 0, 0);
+}
+.confirmTicketButton {
+    margin-top: 1rem;
+    display: inline-block;
+    margin-left: 2rem;
+}
 
 #results ul {
     display: flex;
